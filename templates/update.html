@@ -1,0 +1,41 @@
+<!-- update.html -->
+{% extends "base.html" %}
+{% block content %}
+    <p><a href='/config'>Go back</a></p>
+    <h1>Config - Update Entry</h1>
+    <form method="post" action="http://127.0.0.1:8000/config/update/">
+      {% csrf_token %}
+      <ul>
+        <li><input type="hidden" name="id" value="{{config.id}}"></li>
+        <li>
+          <input type="text" name="appId" placeholder="Config appId" 
+             value="{{config.appId}}" required>
+        </li>
+        <li>
+          <input type="text" name="version" 
+             value="{{config.version}}" required>
+        </li>
+        <li>
+          <input type="text" name="build" 
+             value="{{config.build}}" required>
+        </li>
+        <li>
+          <input type="text" name="platform" 
+             value="{{config.platform}}" required>
+        </li>
+        <li>
+          <input type="text" name="last_update" 
+             value="{{config.last_update}}" required>
+        </li>
+        <li>
+          <textarea name="content" placeholder="Enter Content" 
+            rows=20 cols=100 required>
+            {{config.content}}
+          </textarea>
+        </li>
+        <li>
+          <input type="submit" value="Save Changes">
+        </li>
+      </ul>
+    </form>
+{% endblock %}

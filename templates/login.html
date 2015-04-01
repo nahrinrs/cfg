@@ -1,0 +1,22 @@
+<!-- login.html -->
+{% extends "base.html" %}
+{% block content %}
+
+    <h1>Login</h1>
+    <form method="post" action="http://127.0.0.1:8000/auth">
+      {% csrf_token %}
+      <ul>
+       <li>
+        <label for="username">Username: </label><input type="text" name="username" placeholder="Username" 
+             value="" required>
+        </li>
+        <li>
+          <label for="passwoord">Password: </label><input type="password" name="password" placeholder="password" 
+             value="" required>
+        </li>
+        <li>
+          <input type="submit" value="Login"">
+        </li>
+      </ul>
+    </form>
+{% endblock %}

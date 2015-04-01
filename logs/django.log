@@ -1,0 +1,702 @@
+INFO 2014-10-24 18:56:42,423 views 1536 4482916352 <WSGIRequest
+path:/,
+GET:<QueryDict: {}>,
+POST:<QueryDict: {u'content': [u'aaa:ssss'], u'platform': [u'andriod'], u'version': [u'1.1'], u'build': [u'1'], u'appId': [u'unravel'], u'csrfmiddlewaretoken': [u'VFhm3vbWq1mGtLi926DUZFPMs5mYjjhC']}>,
+COOKIES:{'csrftoken': 'VFhm3vbWq1mGtLi926DUZFPMs5mYjjhC'},
+META:{'APP_ICON_435': '../Resources/Eclipse.icns',
+ 'Apple_PubSub_Socket_Render': '/tmp/launch-AagpQO/Render',
+ 'CONTENT_LENGTH': '122',
+ 'CONTENT_TYPE': 'application/x-www-form-urlencoded',
+ u'CSRF_COOKIE': u'VFhm3vbWq1mGtLi926DUZFPMs5mYjjhC',
+ 'DJANGO_SETTINGS_MODULE': 'configServices.settings',
+ 'GATEWAY_INTERFACE': 'CGI/1.1',
+ 'HOME': '/Users/nahrin',
+ 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+ 'HTTP_ACCEPT_ENCODING': 'gzip,deflate',
+ 'HTTP_ACCEPT_LANGUAGE': 'en-US,en;q=0.8',
+ 'HTTP_CACHE_CONTROL': 'max-age=0',
+ 'HTTP_CONNECTION': 'keep-alive',
+ 'HTTP_COOKIE': 'csrftoken=VFhm3vbWq1mGtLi926DUZFPMs5mYjjhC',
+ 'HTTP_HOST': '127.0.0.1:8000',
+ 'HTTP_ORIGIN': 'http://127.0.0.1:8000',
+ 'HTTP_REFERER': 'http://127.0.0.1:8000/',
+ 'HTTP_USER_AGENT': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36',
+ 'JAVA_STARTED_ON_FIRST_THREAD_435': '1',
+ 'LOGNAME': 'nahrin',
+ 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin',
+ 'PATH_INFO': u'/',
+ 'PYDEV_COMPLETER_PYTHONPATH': '/Applications/eclipse/plugins/org.python.pydev_2.8.1.2013072611/pysrc',
+ 'PYDEV_CONSOLE_ENCODING': 'MacRoman',
+ 'PYTHONIOENCODING': 'MacRoman',
+ 'PYTHONPATH': '/Applications/eclipse/plugins/org.python.pydev_2.8.1.2013072611/pysrc/pydev_sitecustomize:/Users/nahrin/projects/cfg:/Applications/eclipse/plugins/org.python.pydev_2.8.1.2013072611/pysrc:/Library/Python/2.7/site-packages/pip-1.4-py2.7.egg:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python27.zip:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-darwin:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac/lib-scriptpackages:/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-tk:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-old:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload:/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/PyObjC:/Users/nahrin/django-mongodb-engine-0.5.1:/Library/Python/2.7/site-packages',
+ 'QUERY_STRING': '',
+ 'REMOTE_ADDR': '127.0.0.1',
+ 'REMOTE_HOST': '',
+ 'REQUEST_METHOD': 'POST',
+ 'SCRIPT_NAME': u'',
+ 'SERVER_NAME': '1.0.0.127.in-addr.arpa',
+ 'SERVER_PORT': '8000',
+ 'SERVER_PROTOCOL': 'HTTP/1.1',
+ 'SERVER_SOFTWARE': 'WSGIServer/0.1 Python/2.7.5',
+ 'SHELL': '/bin/bash',
+ 'SSH_AUTH_SOCK': '/tmp/launch-t1uqFo/Listeners',
+ 'TMPDIR': '/var/folders/5q/r5ryppy92n18kybmvxptc2dw0000gp/T/',
+ 'TZ': 'UTC',
+ 'USER': 'nahrin',
+ 'VERSIONER_PYTHON_PREFER_32_BIT': 'no',
+ 'VERSIONER_PYTHON_VERSION': '2.7',
+ '__CF_USER_TEXT_ENCODING': '0x1F6:0:0',
+ '__CHECKFIX1436934': '1',
+ 'com.apple.java.jvmMode': 'client',
+ 'com.apple.java.jvmTask': 'JNI',
+ 'wsgi.errors': <open file '<stderr>', mode 'w' at 0x10a1051e0>,
+ 'wsgi.file_wrapper': <class wsgiref.util.FileWrapper at 0x10a94ebb0>,
+ 'wsgi.input': <socket._fileobject object at 0x10ae96e50>,
+ 'wsgi.multiprocess': False,
+ 'wsgi.multithread': True,
+ 'wsgi.run_once': False,
+ 'wsgi.url_scheme': 'http',
+ 'wsgi.version': (1, 0)}>
+INFO 2014-10-24 18:57:12,605 views 1536 4482916352 <WSGIRequest
+path:/,
+GET:<QueryDict: {}>,
+POST:<QueryDict: {u'content': [u'aaa:ssss'], u'platform': [u'andriod'], u'islocked': [u'on'], u'version': [u'1.1'], u'build': [u'1'], u'appId': [u'unravel'], u'csrfmiddlewaretoken': [u'VFhm3vbWq1mGtLi926DUZFPMs5mYjjhC']}>,
+COOKIES:{'csrftoken': 'VFhm3vbWq1mGtLi926DUZFPMs5mYjjhC'},
+META:{'APP_ICON_435': '../Resources/Eclipse.icns',
+ 'Apple_PubSub_Socket_Render': '/tmp/launch-AagpQO/Render',
+ 'CONTENT_LENGTH': '134',
+ 'CONTENT_TYPE': 'application/x-www-form-urlencoded',
+ u'CSRF_COOKIE': u'VFhm3vbWq1mGtLi926DUZFPMs5mYjjhC',
+ 'DJANGO_SETTINGS_MODULE': 'configServices.settings',
+ 'GATEWAY_INTERFACE': 'CGI/1.1',
+ 'HOME': '/Users/nahrin',
+ 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+ 'HTTP_ACCEPT_ENCODING': 'gzip,deflate',
+ 'HTTP_ACCEPT_LANGUAGE': 'en-US,en;q=0.8',
+ 'HTTP_CACHE_CONTROL': 'max-age=0',
+ 'HTTP_CONNECTION': 'keep-alive',
+ 'HTTP_COOKIE': 'csrftoken=VFhm3vbWq1mGtLi926DUZFPMs5mYjjhC',
+ 'HTTP_HOST': '127.0.0.1:8000',
+ 'HTTP_ORIGIN': 'http://127.0.0.1:8000',
+ 'HTTP_REFERER': 'http://127.0.0.1:8000/',
+ 'HTTP_USER_AGENT': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36',
+ 'JAVA_STARTED_ON_FIRST_THREAD_435': '1',
+ 'LOGNAME': 'nahrin',
+ 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin',
+ 'PATH_INFO': u'/',
+ 'PYDEV_COMPLETER_PYTHONPATH': '/Applications/eclipse/plugins/org.python.pydev_2.8.1.2013072611/pysrc',
+ 'PYDEV_CONSOLE_ENCODING': 'MacRoman',
+ 'PYTHONIOENCODING': 'MacRoman',
+ 'PYTHONPATH': '/Applications/eclipse/plugins/org.python.pydev_2.8.1.2013072611/pysrc/pydev_sitecustomize:/Users/nahrin/projects/cfg:/Applications/eclipse/plugins/org.python.pydev_2.8.1.2013072611/pysrc:/Library/Python/2.7/site-packages/pip-1.4-py2.7.egg:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python27.zip:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-darwin:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac/lib-scriptpackages:/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-tk:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-old:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload:/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/PyObjC:/Users/nahrin/django-mongodb-engine-0.5.1:/Library/Python/2.7/site-packages',
+ 'QUERY_STRING': '',
+ 'REMOTE_ADDR': '127.0.0.1',
+ 'REMOTE_HOST': '',
+ 'REQUEST_METHOD': 'POST',
+ 'SCRIPT_NAME': u'',
+ 'SERVER_NAME': '1.0.0.127.in-addr.arpa',
+ 'SERVER_PORT': '8000',
+ 'SERVER_PROTOCOL': 'HTTP/1.1',
+ 'SERVER_SOFTWARE': 'WSGIServer/0.1 Python/2.7.5',
+ 'SHELL': '/bin/bash',
+ 'SSH_AUTH_SOCK': '/tmp/launch-t1uqFo/Listeners',
+ 'TMPDIR': '/var/folders/5q/r5ryppy92n18kybmvxptc2dw0000gp/T/',
+ 'TZ': 'UTC',
+ 'USER': 'nahrin',
+ 'VERSIONER_PYTHON_PREFER_32_BIT': 'no',
+ 'VERSIONER_PYTHON_VERSION': '2.7',
+ '__CF_USER_TEXT_ENCODING': '0x1F6:0:0',
+ '__CHECKFIX1436934': '1',
+ 'com.apple.java.jvmMode': 'client',
+ 'com.apple.java.jvmTask': 'JNI',
+ 'wsgi.errors': <open file '<stderr>', mode 'w' at 0x10a1051e0>,
+ 'wsgi.file_wrapper': <class wsgiref.util.FileWrapper at 0x10a94ebb0>,
+ 'wsgi.input': <socket._fileobject object at 0x10ad432d0>,
+ 'wsgi.multiprocess': False,
+ 'wsgi.multithread': True,
+ 'wsgi.run_once': False,
+ 'wsgi.url_scheme': 'http',
+ 'wsgi.version': (1, 0)}>
+INFO 2014-10-24 19:06:50,598 views 1624 4583575552 <WSGIRequest
+path:/,
+GET:<QueryDict: {}>,
+POST:<QueryDict: {u'content': [u'build:build          '], u'platform': [u'andriod'], u'version': [u'1.1'], u'build': [u'1'], u'appId': [u'unravel'], u'csrfmiddlewaretoken': [u'VFhm3vbWq1mGtLi926DUZFPMs5mYjjhC']}>,
+COOKIES:{'csrftoken': 'VFhm3vbWq1mGtLi926DUZFPMs5mYjjhC'},
+META:{'APP_ICON_435': '../Resources/Eclipse.icns',
+ 'Apple_PubSub_Socket_Render': '/tmp/launch-AagpQO/Render',
+ 'CONTENT_LENGTH': '135',
+ 'CONTENT_TYPE': 'application/x-www-form-urlencoded',
+ u'CSRF_COOKIE': u'VFhm3vbWq1mGtLi926DUZFPMs5mYjjhC',
+ 'DJANGO_SETTINGS_MODULE': 'configServices.settings',
+ 'GATEWAY_INTERFACE': 'CGI/1.1',
+ 'HOME': '/Users/nahrin',
+ 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+ 'HTTP_ACCEPT_ENCODING': 'gzip,deflate',
+ 'HTTP_ACCEPT_LANGUAGE': 'en-US,en;q=0.8',
+ 'HTTP_CACHE_CONTROL': 'max-age=0',
+ 'HTTP_CONNECTION': 'keep-alive',
+ 'HTTP_COOKIE': 'csrftoken=VFhm3vbWq1mGtLi926DUZFPMs5mYjjhC',
+ 'HTTP_HOST': '127.0.0.1:8000',
+ 'HTTP_ORIGIN': 'http://127.0.0.1:8000',
+ 'HTTP_REFERER': 'http://127.0.0.1:8000/',
+ 'HTTP_USER_AGENT': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36',
+ 'JAVA_STARTED_ON_FIRST_THREAD_435': '1',
+ 'LOGNAME': 'nahrin',
+ 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin',
+ 'PATH_INFO': u'/',
+ 'PYDEV_COMPLETER_PYTHONPATH': '/Applications/eclipse/plugins/org.python.pydev_2.8.1.2013072611/pysrc',
+ 'PYDEV_CONSOLE_ENCODING': 'MacRoman',
+ 'PYTHONIOENCODING': 'MacRoman',
+ 'PYTHONPATH': '/Applications/eclipse/plugins/org.python.pydev_2.8.1.2013072611/pysrc/pydev_sitecustomize:/Users/nahrin/projects/cfg:/Applications/eclipse/plugins/org.python.pydev_2.8.1.2013072611/pysrc:/Library/Python/2.7/site-packages/pip-1.4-py2.7.egg:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python27.zip:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-darwin:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac/lib-scriptpackages:/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-tk:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-old:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload:/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/PyObjC:/Users/nahrin/django-mongodb-engine-0.5.1:/Library/Python/2.7/site-packages',
+ 'QUERY_STRING': '',
+ 'REMOTE_ADDR': '127.0.0.1',
+ 'REMOTE_HOST': '',
+ 'REQUEST_METHOD': 'POST',
+ 'SCRIPT_NAME': u'',
+ 'SERVER_NAME': '1.0.0.127.in-addr.arpa',
+ 'SERVER_PORT': '8000',
+ 'SERVER_PROTOCOL': 'HTTP/1.1',
+ 'SERVER_SOFTWARE': 'WSGIServer/0.1 Python/2.7.5',
+ 'SHELL': '/bin/bash',
+ 'SSH_AUTH_SOCK': '/tmp/launch-t1uqFo/Listeners',
+ 'TMPDIR': '/var/folders/5q/r5ryppy92n18kybmvxptc2dw0000gp/T/',
+ 'TZ': 'UTC',
+ 'USER': 'nahrin',
+ 'VERSIONER_PYTHON_PREFER_32_BIT': 'no',
+ 'VERSIONER_PYTHON_VERSION': '2.7',
+ '__CF_USER_TEXT_ENCODING': '0x1F6:0:0',
+ '__CHECKFIX1436934': '1',
+ 'com.apple.java.jvmMode': 'client',
+ 'com.apple.java.jvmTask': 'JNI',
+ 'wsgi.errors': <open file '<stderr>', mode 'w' at 0x1101061e0>,
+ 'wsgi.file_wrapper': <class wsgiref.util.FileWrapper at 0x11094dbb0>,
+ 'wsgi.input': <socket._fileobject object at 0x110d422d0>,
+ 'wsgi.multiprocess': False,
+ 'wsgi.multithread': True,
+ 'wsgi.run_once': False,
+ 'wsgi.url_scheme': 'http',
+ 'wsgi.version': (1, 0)}>
+INFO 2014-10-24 19:07:42,633 views 1624 4583575552 <WSGIRequest
+path:/,
+GET:<QueryDict: {}>,
+POST:<QueryDict: {u'content': [u'build:build          '], u'platform': [u'andriod'], u'version': [u'1.1'], u'build': [u'1'], u'appId': [u'unravel'], u'csrfmiddlewaretoken': [u'VFhm3vbWq1mGtLi926DUZFPMs5mYjjhC']}>,
+COOKIES:{'csrftoken': 'VFhm3vbWq1mGtLi926DUZFPMs5mYjjhC'},
+META:{'APP_ICON_435': '../Resources/Eclipse.icns',
+ 'Apple_PubSub_Socket_Render': '/tmp/launch-AagpQO/Render',
+ 'CONTENT_LENGTH': '135',
+ 'CONTENT_TYPE': 'application/x-www-form-urlencoded',
+ u'CSRF_COOKIE': u'VFhm3vbWq1mGtLi926DUZFPMs5mYjjhC',
+ 'DJANGO_SETTINGS_MODULE': 'configServices.settings',
+ 'GATEWAY_INTERFACE': 'CGI/1.1',
+ 'HOME': '/Users/nahrin',
+ 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+ 'HTTP_ACCEPT_ENCODING': 'gzip,deflate',
+ 'HTTP_ACCEPT_LANGUAGE': 'en-US,en;q=0.8',
+ 'HTTP_CACHE_CONTROL': 'max-age=0',
+ 'HTTP_CONNECTION': 'keep-alive',
+ 'HTTP_COOKIE': 'csrftoken=VFhm3vbWq1mGtLi926DUZFPMs5mYjjhC',
+ 'HTTP_HOST': '127.0.0.1:8000',
+ 'HTTP_ORIGIN': 'http://127.0.0.1:8000',
+ 'HTTP_REFERER': 'http://127.0.0.1:8000/',
+ 'HTTP_USER_AGENT': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36',
+ 'JAVA_STARTED_ON_FIRST_THREAD_435': '1',
+ 'LOGNAME': 'nahrin',
+ 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin',
+ 'PATH_INFO': u'/',
+ 'PYDEV_COMPLETER_PYTHONPATH': '/Applications/eclipse/plugins/org.python.pydev_2.8.1.2013072611/pysrc',
+ 'PYDEV_CONSOLE_ENCODING': 'MacRoman',
+ 'PYTHONIOENCODING': 'MacRoman',
+ 'PYTHONPATH': '/Applications/eclipse/plugins/org.python.pydev_2.8.1.2013072611/pysrc/pydev_sitecustomize:/Users/nahrin/projects/cfg:/Applications/eclipse/plugins/org.python.pydev_2.8.1.2013072611/pysrc:/Library/Python/2.7/site-packages/pip-1.4-py2.7.egg:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python27.zip:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-darwin:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac/lib-scriptpackages:/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-tk:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-old:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload:/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/PyObjC:/Users/nahrin/django-mongodb-engine-0.5.1:/Library/Python/2.7/site-packages',
+ 'QUERY_STRING': '',
+ 'REMOTE_ADDR': '127.0.0.1',
+ 'REMOTE_HOST': '',
+ 'REQUEST_METHOD': 'POST',
+ 'SCRIPT_NAME': u'',
+ 'SERVER_NAME': '1.0.0.127.in-addr.arpa',
+ 'SERVER_PORT': '8000',
+ 'SERVER_PROTOCOL': 'HTTP/1.1',
+ 'SERVER_SOFTWARE': 'WSGIServer/0.1 Python/2.7.5',
+ 'SHELL': '/bin/bash',
+ 'SSH_AUTH_SOCK': '/tmp/launch-t1uqFo/Listeners',
+ 'TMPDIR': '/var/folders/5q/r5ryppy92n18kybmvxptc2dw0000gp/T/',
+ 'TZ': 'UTC',
+ 'USER': 'nahrin',
+ 'VERSIONER_PYTHON_PREFER_32_BIT': 'no',
+ 'VERSIONER_PYTHON_VERSION': '2.7',
+ '__CF_USER_TEXT_ENCODING': '0x1F6:0:0',
+ '__CHECKFIX1436934': '1',
+ 'com.apple.java.jvmMode': 'client',
+ 'com.apple.java.jvmTask': 'JNI',
+ 'wsgi.errors': <open file '<stderr>', mode 'w' at 0x1101061e0>,
+ 'wsgi.file_wrapper': <class wsgiref.util.FileWrapper at 0x11094dbb0>,
+ 'wsgi.input': <socket._fileobject object at 0x110e95c50>,
+ 'wsgi.multiprocess': False,
+ 'wsgi.multithread': True,
+ 'wsgi.run_once': False,
+ 'wsgi.url_scheme': 'http',
+ 'wsgi.version': (1, 0)}>
+INFO 2014-10-24 20:21:41,581 views 2439 4470079488 <WSGIRequest
+path:/,
+GET:<QueryDict: {}>,
+POST:<QueryDict: {u'content': [u'1:1\r\n2:2\r\n'], u'platform': [u'andriod'], u'version': [u'1.1'], u'build': [u'1'], u'appId': [u'unravel'], u'csrfmiddlewaretoken': [u'VFhm3vbWq1mGtLi926DUZFPMs5mYjjhC']}>,
+COOKIES:{'csrftoken': 'VFhm3vbWq1mGtLi926DUZFPMs5mYjjhC'},
+META:{'APP_ICON_435': '../Resources/Eclipse.icns',
+ 'Apple_PubSub_Socket_Render': '/tmp/launch-AagpQO/Render',
+ 'CONTENT_LENGTH': '134',
+ 'CONTENT_TYPE': 'application/x-www-form-urlencoded',
+ u'CSRF_COOKIE': u'VFhm3vbWq1mGtLi926DUZFPMs5mYjjhC',
+ 'DJANGO_SETTINGS_MODULE': 'configServices.settings',
+ 'GATEWAY_INTERFACE': 'CGI/1.1',
+ 'HOME': '/Users/nahrin',
+ 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+ 'HTTP_ACCEPT_ENCODING': 'gzip,deflate',
+ 'HTTP_ACCEPT_LANGUAGE': 'en-US,en;q=0.8',
+ 'HTTP_CACHE_CONTROL': 'max-age=0',
+ 'HTTP_CONNECTION': 'keep-alive',
+ 'HTTP_COOKIE': 'csrftoken=VFhm3vbWq1mGtLi926DUZFPMs5mYjjhC',
+ 'HTTP_HOST': '127.0.0.1:8000',
+ 'HTTP_ORIGIN': 'http://127.0.0.1:8000',
+ 'HTTP_REFERER': 'http://127.0.0.1:8000/',
+ 'HTTP_USER_AGENT': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36',
+ 'JAVA_STARTED_ON_FIRST_THREAD_435': '1',
+ 'LOGNAME': 'nahrin',
+ 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin',
+ 'PATH_INFO': u'/',
+ 'PYDEV_COMPLETER_PYTHONPATH': '/Applications/eclipse/plugins/org.python.pydev_2.8.1.2013072611/pysrc',
+ 'PYDEV_CONSOLE_ENCODING': 'MacRoman',
+ 'PYTHONIOENCODING': 'MacRoman',
+ 'PYTHONPATH': '/Applications/eclipse/plugins/org.python.pydev_2.8.1.2013072611/pysrc/pydev_sitecustomize:/Users/nahrin/projects/cfg:/Applications/eclipse/plugins/org.python.pydev_2.8.1.2013072611/pysrc:/Library/Python/2.7/site-packages/pip-1.4-py2.7.egg:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python27.zip:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-darwin:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac/lib-scriptpackages:/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-tk:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-old:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload:/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/PyObjC:/Users/nahrin/django-mongodb-engine-0.5.1:/Library/Python/2.7/site-packages',
+ 'QUERY_STRING': '',
+ 'REMOTE_ADDR': '127.0.0.1',
+ 'REMOTE_HOST': '',
+ 'REQUEST_METHOD': 'POST',
+ 'SCRIPT_NAME': u'',
+ 'SERVER_NAME': '1.0.0.127.in-addr.arpa',
+ 'SERVER_PORT': '8000',
+ 'SERVER_PROTOCOL': 'HTTP/1.1',
+ 'SERVER_SOFTWARE': 'WSGIServer/0.1 Python/2.7.5',
+ 'SHELL': '/bin/bash',
+ 'SSH_AUTH_SOCK': '/tmp/launch-t1uqFo/Listeners',
+ 'TMPDIR': '/var/folders/5q/r5ryppy92n18kybmvxptc2dw0000gp/T/',
+ 'TZ': 'UTC',
+ 'USER': 'nahrin',
+ 'VERSIONER_PYTHON_PREFER_32_BIT': 'no',
+ 'VERSIONER_PYTHON_VERSION': '2.7',
+ '__CF_USER_TEXT_ENCODING': '0x1F6:0:0',
+ '__CHECKFIX1436934': '1',
+ 'com.apple.java.jvmMode': 'client',
+ 'com.apple.java.jvmTask': 'JNI',
+ 'wsgi.errors': <open file '<stderr>', mode 'w' at 0x1094c71e0>,
+ 'wsgi.file_wrapper': <class wsgiref.util.FileWrapper at 0x109d10bb0>,
+ 'wsgi.input': <socket._fileobject object at 0x10a1052d0>,
+ 'wsgi.multiprocess': False,
+ 'wsgi.multithread': True,
+ 'wsgi.run_once': False,
+ 'wsgi.url_scheme': 'http',
+ 'wsgi.version': (1, 0)}>
+INFO 2014-10-24 21:12:48,761 views 2939 4345671680 <WSGIRequest
+path:/,
+GET:<QueryDict: {}>,
+POST:<QueryDict: {u'content': [u'1:1\r\n2:2\r\n3:3\r\n'], u'platform': [u'andriod'], u'version': [u'1.1'], u'build': [u'1'], u'appId': [u'unravel'], u'csrfmiddlewaretoken': [u'VFhm3vbWq1mGtLi926DUZFPMs5mYjjhC']}>,
+COOKIES:{'csrftoken': 'VFhm3vbWq1mGtLi926DUZFPMs5mYjjhC'},
+META:{'APP_ICON_435': '../Resources/Eclipse.icns',
+ 'Apple_PubSub_Socket_Render': '/tmp/launch-AagpQO/Render',
+ 'CONTENT_LENGTH': '145',
+ 'CONTENT_TYPE': 'application/x-www-form-urlencoded',
+ u'CSRF_COOKIE': u'VFhm3vbWq1mGtLi926DUZFPMs5mYjjhC',
+ 'DJANGO_SETTINGS_MODULE': 'configServices.settings',
+ 'GATEWAY_INTERFACE': 'CGI/1.1',
+ 'HOME': '/Users/nahrin',
+ 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+ 'HTTP_ACCEPT_ENCODING': 'gzip,deflate',
+ 'HTTP_ACCEPT_LANGUAGE': 'en-US,en;q=0.8',
+ 'HTTP_CACHE_CONTROL': 'max-age=0',
+ 'HTTP_CONNECTION': 'keep-alive',
+ 'HTTP_COOKIE': 'csrftoken=VFhm3vbWq1mGtLi926DUZFPMs5mYjjhC',
+ 'HTTP_HOST': '127.0.0.1:8000',
+ 'HTTP_ORIGIN': 'http://127.0.0.1:8000',
+ 'HTTP_REFERER': 'http://127.0.0.1:8000/',
+ 'HTTP_USER_AGENT': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36',
+ 'JAVA_STARTED_ON_FIRST_THREAD_435': '1',
+ 'LOGNAME': 'nahrin',
+ 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin',
+ 'PATH_INFO': u'/',
+ 'PYDEV_COMPLETER_PYTHONPATH': '/Applications/eclipse/plugins/org.python.pydev_2.8.1.2013072611/pysrc',
+ 'PYDEV_CONSOLE_ENCODING': 'MacRoman',
+ 'PYTHONIOENCODING': 'MacRoman',
+ 'PYTHONPATH': '/Applications/eclipse/plugins/org.python.pydev_2.8.1.2013072611/pysrc/pydev_sitecustomize:/Users/nahrin/projects/cfg:/Applications/eclipse/plugins/org.python.pydev_2.8.1.2013072611/pysrc:/Library/Python/2.7/site-packages/pip-1.4-py2.7.egg:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python27.zip:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-darwin:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac/lib-scriptpackages:/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-tk:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-old:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload:/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/PyObjC:/Users/nahrin/django-mongodb-engine-0.5.1:/Library/Python/2.7/site-packages',
+ 'QUERY_STRING': '',
+ 'REMOTE_ADDR': '127.0.0.1',
+ 'REMOTE_HOST': '',
+ 'REQUEST_METHOD': 'POST',
+ 'SCRIPT_NAME': u'',
+ 'SERVER_NAME': '1.0.0.127.in-addr.arpa',
+ 'SERVER_PORT': '8000',
+ 'SERVER_PROTOCOL': 'HTTP/1.1',
+ 'SERVER_SOFTWARE': 'WSGIServer/0.1 Python/2.7.5',
+ 'SHELL': '/bin/bash',
+ 'SSH_AUTH_SOCK': '/tmp/launch-t1uqFo/Listeners',
+ 'TMPDIR': '/var/folders/5q/r5ryppy92n18kybmvxptc2dw0000gp/T/',
+ 'TZ': 'UTC',
+ 'USER': 'nahrin',
+ 'VERSIONER_PYTHON_PREFER_32_BIT': 'no',
+ 'VERSIONER_PYTHON_VERSION': '2.7',
+ '__CF_USER_TEXT_ENCODING': '0x1F6:0:0',
+ '__CHECKFIX1436934': '1',
+ 'com.apple.java.jvmMode': 'client',
+ 'com.apple.java.jvmTask': 'JNI',
+ 'wsgi.errors': <open file '<stderr>', mode 'w' at 0x101e251e0>,
+ 'wsgi.file_wrapper': <class wsgiref.util.FileWrapper at 0x10266cbb0>,
+ 'wsgi.input': <socket._fileobject object at 0x102a612d0>,
+ 'wsgi.multiprocess': False,
+ 'wsgi.multithread': True,
+ 'wsgi.run_once': False,
+ 'wsgi.url_scheme': 'http',
+ 'wsgi.version': (1, 0)}>
+INFO 2014-10-24 21:12:59,661 views 2939 4345671680 <WSGIRequest
+path:/,
+GET:<QueryDict: {}>,
+POST:<QueryDict: {u'content': [u'1:1\r\n2:2\r\n3:3\r\n'], u'platform': [u'andriod'], u'version': [u'1.1'], u'build': [u'1'], u'appId': [u'unravel'], u'csrfmiddlewaretoken': [u'VFhm3vbWq1mGtLi926DUZFPMs5mYjjhC']}>,
+COOKIES:{'csrftoken': 'VFhm3vbWq1mGtLi926DUZFPMs5mYjjhC'},
+META:{'APP_ICON_435': '../Resources/Eclipse.icns',
+ 'Apple_PubSub_Socket_Render': '/tmp/launch-AagpQO/Render',
+ 'CONTENT_LENGTH': '145',
+ 'CONTENT_TYPE': 'application/x-www-form-urlencoded',
+ u'CSRF_COOKIE': u'VFhm3vbWq1mGtLi926DUZFPMs5mYjjhC',
+ 'DJANGO_SETTINGS_MODULE': 'configServices.settings',
+ 'GATEWAY_INTERFACE': 'CGI/1.1',
+ 'HOME': '/Users/nahrin',
+ 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+ 'HTTP_ACCEPT_ENCODING': 'gzip,deflate',
+ 'HTTP_ACCEPT_LANGUAGE': 'en-US,en;q=0.8',
+ 'HTTP_CACHE_CONTROL': 'max-age=0',
+ 'HTTP_CONNECTION': 'keep-alive',
+ 'HTTP_COOKIE': 'csrftoken=VFhm3vbWq1mGtLi926DUZFPMs5mYjjhC',
+ 'HTTP_HOST': '127.0.0.1:8000',
+ 'HTTP_ORIGIN': 'http://127.0.0.1:8000',
+ 'HTTP_REFERER': 'http://127.0.0.1:8000/',
+ 'HTTP_USER_AGENT': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36',
+ 'JAVA_STARTED_ON_FIRST_THREAD_435': '1',
+ 'LOGNAME': 'nahrin',
+ 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin',
+ 'PATH_INFO': u'/',
+ 'PYDEV_COMPLETER_PYTHONPATH': '/Applications/eclipse/plugins/org.python.pydev_2.8.1.2013072611/pysrc',
+ 'PYDEV_CONSOLE_ENCODING': 'MacRoman',
+ 'PYTHONIOENCODING': 'MacRoman',
+ 'PYTHONPATH': '/Applications/eclipse/plugins/org.python.pydev_2.8.1.2013072611/pysrc/pydev_sitecustomize:/Users/nahrin/projects/cfg:/Applications/eclipse/plugins/org.python.pydev_2.8.1.2013072611/pysrc:/Library/Python/2.7/site-packages/pip-1.4-py2.7.egg:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python27.zip:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-darwin:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac/lib-scriptpackages:/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-tk:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-old:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload:/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/PyObjC:/Users/nahrin/django-mongodb-engine-0.5.1:/Library/Python/2.7/site-packages',
+ 'QUERY_STRING': '',
+ 'REMOTE_ADDR': '127.0.0.1',
+ 'REMOTE_HOST': '',
+ 'REQUEST_METHOD': 'POST',
+ 'SCRIPT_NAME': u'',
+ 'SERVER_NAME': '1.0.0.127.in-addr.arpa',
+ 'SERVER_PORT': '8000',
+ 'SERVER_PROTOCOL': 'HTTP/1.1',
+ 'SERVER_SOFTWARE': 'WSGIServer/0.1 Python/2.7.5',
+ 'SHELL': '/bin/bash',
+ 'SSH_AUTH_SOCK': '/tmp/launch-t1uqFo/Listeners',
+ 'TMPDIR': '/var/folders/5q/r5ryppy92n18kybmvxptc2dw0000gp/T/',
+ 'TZ': 'UTC',
+ 'USER': 'nahrin',
+ 'VERSIONER_PYTHON_PREFER_32_BIT': 'no',
+ 'VERSIONER_PYTHON_VERSION': '2.7',
+ '__CF_USER_TEXT_ENCODING': '0x1F6:0:0',
+ '__CHECKFIX1436934': '1',
+ 'com.apple.java.jvmMode': 'client',
+ 'com.apple.java.jvmTask': 'JNI',
+ 'wsgi.errors': <open file '<stderr>', mode 'w' at 0x101e251e0>,
+ 'wsgi.file_wrapper': <class wsgiref.util.FileWrapper at 0x10266cbb0>,
+ 'wsgi.input': <socket._fileobject object at 0x102bb4c50>,
+ 'wsgi.multiprocess': False,
+ 'wsgi.multithread': True,
+ 'wsgi.run_once': False,
+ 'wsgi.url_scheme': 'http',
+ 'wsgi.version': (1, 0)}>
+INFO 2014-10-24 21:13:30,960 views 2939 4345671680 <WSGIRequest
+path:/,
+GET:<QueryDict: {}>,
+POST:<QueryDict: {u'content': [u'1:1\r\n2:2\r\n3:3\r\n'], u'platform': [u'andriod'], u'version': [u'1.1'], u'build': [u'1'], u'appId': [u'unravel'], u'csrfmiddlewaretoken': [u'VFhm3vbWq1mGtLi926DUZFPMs5mYjjhC']}>,
+COOKIES:{'csrftoken': 'VFhm3vbWq1mGtLi926DUZFPMs5mYjjhC'},
+META:{'APP_ICON_435': '../Resources/Eclipse.icns',
+ 'Apple_PubSub_Socket_Render': '/tmp/launch-AagpQO/Render',
+ 'CONTENT_LENGTH': '145',
+ 'CONTENT_TYPE': 'application/x-www-form-urlencoded',
+ u'CSRF_COOKIE': u'VFhm3vbWq1mGtLi926DUZFPMs5mYjjhC',
+ 'DJANGO_SETTINGS_MODULE': 'configServices.settings',
+ 'GATEWAY_INTERFACE': 'CGI/1.1',
+ 'HOME': '/Users/nahrin',
+ 'HTTP_ACCEPT': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+ 'HTTP_ACCEPT_ENCODING': 'gzip,deflate',
+ 'HTTP_ACCEPT_LANGUAGE': 'en-US,en;q=0.8',
+ 'HTTP_CACHE_CONTROL': 'max-age=0',
+ 'HTTP_CONNECTION': 'keep-alive',
+ 'HTTP_COOKIE': 'csrftoken=VFhm3vbWq1mGtLi926DUZFPMs5mYjjhC',
+ 'HTTP_HOST': '127.0.0.1:8000',
+ 'HTTP_ORIGIN': 'http://127.0.0.1:8000',
+ 'HTTP_REFERER': 'http://127.0.0.1:8000/',
+ 'HTTP_USER_AGENT': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.104 Safari/537.36',
+ 'JAVA_STARTED_ON_FIRST_THREAD_435': '1',
+ 'LOGNAME': 'nahrin',
+ 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin',
+ 'PATH_INFO': u'/',
+ 'PYDEV_COMPLETER_PYTHONPATH': '/Applications/eclipse/plugins/org.python.pydev_2.8.1.2013072611/pysrc',
+ 'PYDEV_CONSOLE_ENCODING': 'MacRoman',
+ 'PYTHONIOENCODING': 'MacRoman',
+ 'PYTHONPATH': '/Applications/eclipse/plugins/org.python.pydev_2.8.1.2013072611/pysrc/pydev_sitecustomize:/Users/nahrin/projects/cfg:/Applications/eclipse/plugins/org.python.pydev_2.8.1.2013072611/pysrc:/Library/Python/2.7/site-packages/pip-1.4-py2.7.egg:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python27.zip:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-darwin:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac/lib-scriptpackages:/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-tk:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-old:/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload:/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/PyObjC:/Users/nahrin/django-mongodb-engine-0.5.1:/Library/Python/2.7/site-packages',
+ 'QUERY_STRING': '',
+ 'REMOTE_ADDR': '127.0.0.1',
+ 'REMOTE_HOST': '',
+ 'REQUEST_METHOD': 'POST',
+ 'SCRIPT_NAME': u'',
+ 'SERVER_NAME': '1.0.0.127.in-addr.arpa',
+ 'SERVER_PORT': '8000',
+ 'SERVER_PROTOCOL': 'HTTP/1.1',
+ 'SERVER_SOFTWARE': 'WSGIServer/0.1 Python/2.7.5',
+ 'SHELL': '/bin/bash',
+ 'SSH_AUTH_SOCK': '/tmp/launch-t1uqFo/Listeners',
+ 'TMPDIR': '/var/folders/5q/r5ryppy92n18kybmvxptc2dw0000gp/T/',
+ 'TZ': 'UTC',
+ 'USER': 'nahrin',
+ 'VERSIONER_PYTHON_PREFER_32_BIT': 'no',
+ 'VERSIONER_PYTHON_VERSION': '2.7',
+ '__CF_USER_TEXT_ENCODING': '0x1F6:0:0',
+ '__CHECKFIX1436934': '1',
+ 'com.apple.java.jvmMode': 'client',
+ 'com.apple.java.jvmTask': 'JNI',
+ 'wsgi.errors': <open file '<stderr>', mode 'w' at 0x101e251e0>,
+ 'wsgi.file_wrapper': <class wsgiref.util.FileWrapper at 0x10266cbb0>,
+ 'wsgi.input': <socket._fileobject object at 0x10307c5d0>,
+ 'wsgi.multiprocess': False,
+ 'wsgi.multithread': True,
+ 'wsgi.run_once': False,
+ 'wsgi.url_scheme': 'http',
+ 'wsgi.version': (1, 0)}>
+WARNING 2014-10-24 21:16:50,726 views 2987 4571123712 /Users/nahrin/projects/cfg/config/views.py:28: DeprecationWarning: BaseException.message has been deprecated as of Python 2.6
+  logger.error(e.message)
+
+ERROR 2014-10-24 21:16:50,726 views 2987 4571123712 Tried to save duplicate unique keys (insertDocument :: caused by :: 11000 E11000 duplicate key error index: cfg.config.$appId_1_version_1_build_1_platform_1  dup key: { : "unravel", : "1.1", : "1", : "andriod" })
+ERROR 2014-10-24 21:17:20,326 views 2995 4316614656 Tried to save duplicate unique keys (insertDocument :: caused by :: 11000 E11000 duplicate key error index: cfg.config.$appId_1_version_1_build_1_platform_1  dup key: { : "unravel", : "1.1", : "1", : "andriod" })
+ERROR 2014-10-24 21:17:29,748 views 2995 4316614656 Tried to save duplicate unique keys (insertDocument :: caused by :: 11000 E11000 duplicate key error index: cfg.config.$appId_1_version_1_build_1_platform_1  dup key: { : "unravel", : "1.1", : "1", : "andriod" })
+ERROR 2014-10-24 21:26:19,214 views 3072 4418199552 Tried to save duplicate unique keys (insertDocument :: caused by :: 11000 E11000 duplicate key error index: cfg.config.$appId_1_version_1_build_1_platform_1  dup key: { : "unravel", : "1.1", : "1", : "andriod" })
+Traceback (most recent call last):
+  File "/Users/nahrin/projects/cfg/config/views.py", line 25, in index
+    cfg.save()
+  File "/Library/Python/2.7/site-packages/mongoengine/document.py", line 286, in save
+    raise NotUniqueError(message % unicode(err))
+NotUniqueError: Tried to save duplicate unique keys (insertDocument :: caused by :: 11000 E11000 duplicate key error index: cfg.config.$appId_1_version_1_build_1_platform_1  dup key: { : "unravel", : "1.1", : "1", : "andriod" })
+ERROR 2014-10-24 21:48:26,698 views 3296 4487778304 Tried to save duplicate unique keys (insertDocument :: caused by :: 11000 E11000 duplicate key error index: cfg.config.$appId_1_version_1_build_1_platform_1  dup key: { : "unravel", : "1.0", : "1", : "andriod" })
+Traceback (most recent call last):
+  File "/Users/nahrin/projects/cfg/config/views.py", line 25, in index
+    cfg.save()
+  File "/Library/Python/2.7/site-packages/mongoengine/document.py", line 286, in save
+    raise NotUniqueError(message % unicode(err))
+NotUniqueError: Tried to save duplicate unique keys (insertDocument :: caused by :: 11000 E11000 duplicate key error index: cfg.config.$appId_1_version_1_build_1_platform_1  dup key: { : "unravel", : "1.0", : "1", : "andriod" })
+WARNING 2014-10-28 22:25:05,922 deprecation 7932 140735109640976 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/mongoengine-0.8.7-py2.7.egg/mongoengine/django/mongo_auth/models.py:33: RemovedInDjango18Warning: `MongoUserManager.get_query_set` method should be renamed `get_queryset`.
+  class MongoUserManager(UserManager):
+
+WARNING 2014-10-28 22:25:18,030 deprecation 7935 140735109640976 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/mongoengine-0.8.7-py2.7.egg/mongoengine/django/mongo_auth/models.py:33: RemovedInDjango18Warning: `MongoUserManager.get_query_set` method should be renamed `get_queryset`.
+  class MongoUserManager(UserManager):
+
+INFO 2014-10-28 22:31:46,702 views 7994 4390039552 <django.dispatch.dispatcher.Signal object at 0x1054d6310>
+INFO 2014-10-28 22:32:55,019 views 8007 4532858880 <django.dispatch.dispatcher.Signal object at 0x10dd0a310>
+INFO 2014-10-28 22:37:27,202 views 8052 4336738304 <django.dispatch.dispatcher.Signal object at 0x102201310>
+INFO 2014-10-28 22:38:18,741 views 8060 4373045248 <django.dispatch.dispatcher.Signal object at 0x1044a1310>
+INFO 2014-10-28 22:38:56,648 views 8060 4373045248 <django.dispatch.dispatcher.Signal object at 0x1044a1310>
+INFO 2014-10-28 22:44:41,247 views 8125 4325793792 [<Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-28 22:44:43,661 views 8125 4325793792 <django.dispatch.dispatcher.Signal object at 0x101791310>
+INFO 2014-10-28 22:48:23,103 views 8155 4346159104 [<Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-28 22:48:25,319 views 8155 4346159104 <django.dispatch.dispatcher.Signal object at 0x102afd310>
+INFO 2014-10-28 23:10:13,917 views 8289 4406599680 [<Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-28 23:10:17,559 views 8289 4406599680 <django.dispatch.dispatcher.Signal object at 0x1064a1310>
+INFO 2014-10-28 23:11:14,892 views 8289 4406599680 <django.dispatch.dispatcher.Signal object at 0x1064a1310>
+INFO 2014-10-28 23:11:28,840 views 8289 4406599680 <django.dispatch.dispatcher.Signal object at 0x1064a1310>
+INFO 2014-10-28 23:14:25,718 views 8289 4406599680 <django.dispatch.dispatcher.Signal object at 0x1064a1310>
+INFO 2014-10-28 23:14:36,622 views 8289 4406599680 <django.dispatch.dispatcher.Signal object at 0x1064a1310>
+INFO 2014-10-28 23:15:21,830 views 10708 4515590144 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-28 23:15:25,347 views 10708 4515590144 <django.dispatch.dispatcher.Signal object at 0x10cc92310>
+INFO 2014-10-28 23:18:10,144 views 10728 4429299712 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-28 23:18:14,276 views 10728 4429299712 <django.dispatch.dispatcher.Signal object at 0x107a47310>
+INFO 2014-10-28 23:18:38,542 views 10737 4528291840 <django.dispatch.dispatcher.Signal object at 0x10d4ac310>
+INFO 2014-10-28 23:18:43,334 views 10737 4524085248 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-28 23:18:46,007 views 10737 4524085248 <django.dispatch.dispatcher.Signal object at 0x10d4ac310>
+INFO 2014-10-28 23:29:35,080 views 10845 4378664960 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-28 23:29:39,210 views 10845 4378664960 <django.dispatch.dispatcher.Signal object at 0x1049fd310>
+INFO 2014-10-28 23:30:34,737 views 10857 4338409472 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-28 23:30:38,658 views 10857 4338409472 <django.dispatch.dispatcher.Signal object at 0x102399310>
+INFO 2014-10-28 23:31:06,907 views 10857 4338409472 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-28 23:31:17,707 views 10857 4338409472 <django.dispatch.dispatcher.Signal object at 0x102399310>
+INFO 2014-10-28 23:47:47,272 views 11006 4348203008 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-28 23:47:54,944 views 11006 4348203008 <django.dispatch.dispatcher.Signal object at 0x102cf0310>
+INFO 2014-10-28 23:49:34,879 views 11006 4348203008 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-28 23:49:35,073 views 11006 4356616192 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-28 23:49:49,839 views 11006 4348203008 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-28 23:49:53,859 views 11006 4348203008 <django.dispatch.dispatcher.Signal object at 0x102cf0310>
+INFO 2014-10-29 00:01:01,239 views 11140 4362592256 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 00:02:04,789 views 11151 4547657728 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 00:02:09,067 views 11151 4543451136 <django.dispatch.dispatcher.Signal object at 0x10e724310>
+INFO 2014-10-29 00:02:09,071 views 11151 4543451136 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 00:02:42,441 views 11159 4497612800 <django.dispatch.dispatcher.Signal object at 0x10bb6d310>
+INFO 2014-10-29 00:02:58,856 views 11159 4502081536 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 00:03:02,493 views 11159 4497612800 <django.dispatch.dispatcher.Signal object at 0x10bb6d310>
+INFO 2014-10-29 00:03:11,095 views 11159 4502081536 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 00:03:15,063 views 11159 4497612800 <django.dispatch.dispatcher.Signal object at 0x10bb6d310>
+INFO 2014-10-29 00:03:22,283 views 11159 4497612800 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 00:03:43,484 views 11159 4497612800 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 00:05:27,759 views 11181 4390662144 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 00:05:44,406 views 11181 4394868736 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 00:07:07,209 views 11196 4453695488 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 17:11:37,296 views 11636 4372037632 <django.dispatch.dispatcher.Signal object at 0x1043ab310>
+INFO 2014-10-29 17:18:07,666 views 11696 4466266112 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 17:18:58,720 views 11696 4466266112 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 17:19:41,257 views 11718 4454125568 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 17:24:46,529 views 11763 4424437760 True
+INFO 2014-10-29 17:24:46,530 views 11763 4424437760 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 17:25:34,518 views 11763 4424437760 True
+INFO 2014-10-29 17:25:34,518 views 11763 4424437760 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 17:26:02,186 views 11776 4474482688 False
+INFO 2014-10-29 17:26:05,124 views 11776 4474482688 <django.dispatch.dispatcher.Signal object at 0x10a55e310>
+INFO 2014-10-29 17:26:05,131 views 11776 4474482688 True
+INFO 2014-10-29 17:26:05,132 views 11776 4474482688 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 17:27:17,759 views 11786 4570202112 False
+INFO 2014-10-29 17:27:20,114 views 11786 4565995520 <django.dispatch.dispatcher.Signal object at 0x10fca4310>
+INFO 2014-10-29 17:27:20,121 views 11786 4565995520 True
+INFO 2014-10-29 17:27:20,122 views 11786 4565995520 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 17:27:24,813 views 11786 4565995520 <django.dispatch.dispatcher.Signal object at 0x10fca4310>
+INFO 2014-10-29 17:27:24,819 views 11786 4565995520 True
+INFO 2014-10-29 17:27:24,820 views 11786 4565995520 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 17:27:30,759 views 11786 4565995520 <django.dispatch.dispatcher.Signal object at 0x10fca4310>
+INFO 2014-10-29 17:27:30,766 views 11786 4565995520 True
+INFO 2014-10-29 17:27:30,766 views 11786 4565995520 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 17:42:00,648 views 11911 4576305152 True
+INFO 2014-10-29 17:42:00,649 views 11911 4576305152 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 17:42:04,861 views 11911 4567891968 True
+INFO 2014-10-29 17:55:21,246 views 12037 4343754752 <django.dispatch.dispatcher.Signal object at 0x1028b2310>
+INFO 2014-10-29 17:55:21,253 views 12037 4343754752 True
+INFO 2014-10-29 17:55:21,254 views 12037 4343754752 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 17:55:25,353 views 12037 4343754752 True
+INFO 2014-10-29 17:56:07,287 views 12044 4345061376 True
+INFO 2014-10-29 17:56:07,287 views 12044 4345061376 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 17:56:14,269 views 12044 4340854784 <django.dispatch.dispatcher.Signal object at 0x1025ee310>
+INFO 2014-10-29 17:56:14,279 views 12044 4340854784 True
+INFO 2014-10-29 17:56:14,280 views 12044 4340854784 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 17:56:22,257 views 12044 4345061376 False
+INFO 2014-10-29 17:56:35,788 views 12044 4340854784 False
+INFO 2014-10-29 17:56:42,838 views 12044 4341116928 False
+INFO 2014-10-29 17:56:45,277 views 12044 4341116928 <django.dispatch.dispatcher.Signal object at 0x1025ee310>
+INFO 2014-10-29 17:56:45,285 views 12044 4341116928 True
+INFO 2014-10-29 17:56:45,285 views 12044 4341116928 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 17:56:50,554 views 12044 4341116928 True
+INFO 2014-10-29 17:56:50,567 views 12044 4341116928 True
+INFO 2014-10-29 17:56:52,830 views 12044 4341116928 True
+INFO 2014-10-29 19:19:09,717 views 12906 4468670464 False
+INFO 2014-10-29 19:19:12,126 views 12906 4468670464 <django.dispatch.dispatcher.Signal object at 0x109fd3310>
+INFO 2014-10-29 19:19:12,134 views 12906 4468670464 True
+INFO 2014-10-29 19:19:12,135 views 12906 4468670464 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 19:19:15,372 views 12906 4468670464 True
+INFO 2014-10-29 19:20:32,259 views 12906 4468670464 True
+INFO 2014-10-29 19:21:50,074 views 12906 4468670464 True
+INFO 2014-10-29 19:21:52,008 views 12906 4468670464 True
+INFO 2014-10-29 19:21:52,008 views 12906 4468670464 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 19:21:56,806 views 12906 4468670464 True
+INFO 2014-10-29 19:21:58,554 views 12906 4468670464 True
+INFO 2014-10-29 19:21:58,554 views 12906 4468670464 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 19:22:00,177 views 12906 4468670464 True
+INFO 2014-10-29 19:22:01,458 views 12906 4468670464 True
+INFO 2014-10-29 19:22:01,458 views 12906 4468670464 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 19:22:03,130 views 12906 4468670464 True
+INFO 2014-10-29 19:22:03,149 views 12906 4468670464 True
+INFO 2014-10-29 19:22:07,195 views 12906 4468670464 True
+INFO 2014-10-29 19:22:07,196 views 12906 4468670464 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 19:22:09,548 views 12906 4468670464 True
+INFO 2014-10-29 19:22:09,566 views 12906 4468670464 True
+INFO 2014-10-29 19:22:22,901 views 12906 4468670464 True
+INFO 2014-10-29 19:22:22,901 views 12906 4468670464 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 19:25:34,494 views 12906 4468670464 True
+INFO 2014-10-29 19:25:34,513 views 12906 4468670464 True
+INFO 2014-10-29 19:25:36,654 views 12906 4468670464 True
+INFO 2014-10-29 19:25:36,655 views 12906 4468670464 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 19:25:37,883 views 12906 4468670464 True
+INFO 2014-10-29 19:25:39,565 views 12906 4468670464 True
+INFO 2014-10-29 19:25:39,565 views 12906 4468670464 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 19:25:40,884 views 12906 4468670464 True
+INFO 2014-10-29 19:25:42,415 views 12906 4468670464 True
+INFO 2014-10-29 19:25:42,415 views 12906 4468670464 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 19:25:43,968 views 12906 4468670464 True
+INFO 2014-10-29 19:25:45,215 views 12906 4468670464 True
+INFO 2014-10-29 19:25:45,215 views 12906 4468670464 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 19:25:46,579 views 12906 4468670464 True
+INFO 2014-10-29 19:25:46,596 views 12906 4468670464 True
+INFO 2014-10-29 19:26:30,636 views 12906 4468670464 True
+INFO 2014-10-29 19:26:33,682 views 12906 4468670464 True
+INFO 2014-10-29 19:26:41,738 views 12906 4468670464 True
+INFO 2014-10-29 19:26:46,642 views 12906 4468670464 True
+INFO 2014-10-29 19:29:26,737 views 13009 4487634944 True
+INFO 2014-10-29 19:29:26,737 views 13009 4487634944 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 19:29:29,685 views 13009 4487634944 True
+INFO 2014-10-29 19:29:29,703 views 13009 4487634944 True
+INFO 2014-10-29 19:29:31,650 views 13009 4487634944 True
+INFO 2014-10-29 19:29:31,650 views 13009 4487634944 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 19:29:34,452 views 13009 4487634944 True
+INFO 2014-10-29 19:29:34,469 views 13009 4487634944 True
+INFO 2014-10-29 19:29:36,409 views 13009 4487634944 True
+INFO 2014-10-29 19:29:36,409 views 13009 4487634944 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 19:29:38,878 views 13009 4487634944 True
+INFO 2014-10-29 19:29:38,894 views 13009 4487634944 True
+INFO 2014-10-29 19:29:40,964 views 13009 4487634944 True
+INFO 2014-10-29 19:29:40,964 views 13009 4487634944 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 19:47:20,303 views 13197 4395802624 True
+INFO 2014-10-29 19:47:20,305 views 13197 4395802624 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 19:47:24,266 views 13197 4395802624 True
+INFO 2014-10-29 19:47:24,266 views 13197 4395802624 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 19:47:51,780 views 13197 4395802624 True
+INFO 2014-10-29 19:47:51,781 views 13197 4395802624 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 19:49:23,493 views 13219 4478414848 True
+INFO 2014-10-29 19:49:23,494 views 13219 4478414848 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 19:49:28,098 views 13219 4478414848 True
+INFO 2014-10-29 19:49:28,098 views 13219 4478414848 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 19:49:29,548 views 13219 4478414848 True
+INFO 2014-10-29 19:49:29,549 views 13219 4478414848 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 19:50:00,558 views 13226 4406546432 True
+INFO 2014-10-29 19:50:00,559 views 13226 4406546432 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 19:50:09,783 views 13226 4406546432 True
+INFO 2014-10-29 19:50:12,278 views 13226 4406546432 True
+INFO 2014-10-29 19:50:12,279 views 13226 4406546432 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 19:50:21,943 views 13226 4406546432 True
+INFO 2014-10-29 19:50:23,763 views 13226 4406546432 True
+INFO 2014-10-29 19:50:23,763 views 13226 4406546432 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 20:45:03,287 views 13788 4551544832 False
+INFO 2014-10-29 20:45:05,267 views 13788 4541255680 <django.dispatch.dispatcher.Signal object at 0x10e50b450>
+INFO 2014-10-29 20:45:05,273 views 13788 4541255680 True
+INFO 2014-10-29 20:45:05,274 views 13788 4541255680 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 21:13:25,985 views 14058 4552695808 True
+INFO 2014-10-29 21:13:25,986 views 14058 4552695808 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 21:13:46,642 views 14058 4548489216 True
+INFO 2014-10-29 21:13:48,139 views 14058 4548489216 True
+INFO 2014-10-29 21:15:39,314 views 14058 4548489216 True
+INFO 2014-10-29 21:15:40,467 views 14058 4548489216 True
+INFO 2014-10-29 21:22:38,818 views 14058 4548489216 <django.dispatch.dispatcher.Signal object at 0x10ebf1450>
+INFO 2014-10-29 21:22:38,825 views 14058 4548489216 True
+INFO 2014-10-29 21:22:38,826 views 14058 4548489216 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 21:44:05,496 views 14058 4548489216 <django.dispatch.dispatcher.Signal object at 0x10ebf1450>
+INFO 2014-10-29 21:44:05,504 views 14058 4548489216 True
+INFO 2014-10-29 21:44:05,504 views 14058 4548489216 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 22:15:42,212 views 14686 4527529984 False
+INFO 2014-10-29 22:15:43,823 views 14686 4527792128 <django.dispatch.dispatcher.Signal object at 0x10d7f4450>
+INFO 2014-10-29 22:15:43,831 views 14686 4527792128 True
+INFO 2014-10-29 22:15:43,831 views 14686 4527792128 [<Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>, <Config: Config object>]
+INFO 2014-10-29 22:57:13,269 views 15069 4509720576 True
+WARNING 2014-10-30 19:16:50,101 deprecation 17358 140735109640976 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/mongoengine-0.8.7-py2.7.egg/mongoengine/django/mongo_auth/models.py:33: RemovedInDjango18Warning: `MongoUserManager.get_query_set` method should be renamed `get_queryset`.
+  class MongoUserManager(UserManager):
+
+INFO 2014-10-30 19:55:59,255 views 17751 4551647232 False
+INFO 2014-10-30 19:56:02,234 views 17751 4551647232 <django.dispatch.dispatcher.Signal object at 0x10eef4410>
+INFO 2014-10-30 19:56:02,243 views 17751 4551647232 True
+INFO 2014-10-30 20:19:40,271 views 17988 4518420480 True
+WARNING 2014-10-30 20:22:47,431 deprecation 18050 140735109640976 /Library/Python/2.7/site-packages/mongoengine/django/mongo_auth/models.py:33: RemovedInDjango18Warning: `MongoUserManager.get_query_set` method should be renamed `get_queryset`.
+  class MongoUserManager(UserManager):
+
+WARNING 2014-10-30 20:23:05,141 deprecation 18058 140735109640976 /Library/Python/2.7/site-packages/mongoengine/django/mongo_auth/models.py:33: RemovedInDjango18Warning: `MongoUserManager.get_query_set` method should be renamed `get_queryset`.
+  class MongoUserManager(UserManager):
+
+WARNING 2014-10-30 20:23:49,789 deprecation 18063 140735109640976 /Library/Python/2.7/site-packages/mongoengine/django/mongo_auth/models.py:33: RemovedInDjango18Warning: `MongoUserManager.get_query_set` method should be renamed `get_queryset`.
+  class MongoUserManager(UserManager):
+

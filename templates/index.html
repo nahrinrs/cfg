@@ -1,0 +1,66 @@
+<!-- index.html -->
+{% extends "base.html" %}
+{% block content %}
+
+    <h1>Config</h1>
+    <form method="post" action="http://127.0.0.1:8000/config">
+      {% csrf_token %}
+      <ul>
+        <li>
+          <input type="text" name="appId" placeholder="Config appId" required>
+        </li>
+        <li>
+          <input type="text" name="version" placeholder="Config version" required>
+        </li>
+       <li>
+          <input type="text" name="build" placeholder="Config build" required>
+        </li> 
+        <li>
+          <input type="text" name="platform" placeholder="Config platform" required>
+        </li>
+        <li>
+          <textarea name="content" placeholder="Enter Content" rows=20 cols=100  required>
+          </textarea>
+        </li>
+        <li>
+          <input type="submit" value="Add Config">
+        </li>
+      </ul>
+    </form>
+<!-- Cycle through entries -->
+    {% for cfg in Configs %}
+      <h3> appId: {{cfg.appId }} - version: {{cfg.version }} - build: {{cfg.build }} - platform: {{cfg.platform }}</h3>
+      <p>last updated: {{ cfg.last_update }}</p>
+      <p>content: {{ cfg.content }}</p>
+      {% if not cfg.islocked %}
+      <table><tr><td>
+      <form method="get" action="http://127.0.0.1:8000/config/update">
+        <input type="hidden" name="id" value="{{cfg.id }}">
+        <input type="hidden" name="appId" value="{{ cfg.appId}}">
+        <input type="hidden" name="version" value="{{cfg.version}}">
+        <input type="hidden" name="build" value="{{cfg.build}}">
+        <input type="hidden" name="platform" value="{{cfg.platform}}">
+        <input type="hidden" name="last_update" value="{{cfg.last_update }}">
+        <input type="hidden" name="content" value="{{cfg.content }}">
+        <input type="submit" name="" value="update">
+      </form>
+      </td><td>
+     <form method="get" action="http://127.0.0.1:8000/config/lock">
+        <input type="hidden" name="id" value="{{cfg.id}}">
+        <input type="submit" value="lock">
+      </form>
+      </td><td>
+      {% endif %}
+      <form method="get" action="http://127.0.0.1:8000/config/delete">
+        <input type="hidden" name="id" value="{{cfg.id}}">
+        <input type="submit" value="delete">
+      </form>
+      </td><td>
+      <form method="get" action="http://127.0.0.1:8000/config/copy">
+        <input type="hidden" name="id" value="{{cfg.id}}">
+        <input type="submit" value="copy">
+      </form>
+      </td></tr></table>
+    {% endfor %}
+{% endblock %}
+

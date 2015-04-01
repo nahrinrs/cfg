@@ -1,0 +1,15 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>configServices</title>
+        <link href="{% static 'css/config.css' %}" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        {%if user.is_authenticated%}
+            <p><a href='/logout'>logout</a></p>
+        {%endif%}    
+    {% block content %}
+    {% endblock %}
+    </body>
+</html>

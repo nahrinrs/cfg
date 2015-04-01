@@ -1,0 +1,12 @@
+<!-- lock.html -->
+{% extends "base.html" %}
+{% block content %}
+ <p><a href='/config'>Go back</a></p>
+ <h1>Config - Delete Entry</h1>
+    <form method="post" action="http://127.0.0.1:8000/config/lock/">
+      {% csrf_token %}
+      <input type="hidden" name="id" value="{{id}}">
+      <p>Are you sure you want to lock this config entry? If you lock it, you won't be able to edit it.</p>
+      <input type="submit" value="Lock">
+    </form>
+{% endblock %}
