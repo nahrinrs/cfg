@@ -11,7 +11,7 @@ django.VERSION
 install pydev eclipse python integration
 install MongoEngine -
 sudo pip install mongoengine
-install mongod and run it locally - https://intranet.gaiaonline.com/wiki/unravel_dev
+install mongod and run it locally 
 create, update, delete, lock config
 when config is locked, it cannot be edited, but still removed?
 appid, version, build, platform is unique index
