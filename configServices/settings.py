@@ -40,7 +40,7 @@ TEMPLATE_DEBUG = DEBUG
 ALLOWED_HOSTS = []
 
 ADMINS = (
-     ('Nahrin Reihaneh', 'nahrin@gaiaonline.com'),
+     ('Nahrin Reihaneh', 'nahrinrs@yahoo.com'),
 )
 
 # Application definition
