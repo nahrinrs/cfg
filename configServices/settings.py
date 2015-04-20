@@ -16,10 +16,12 @@ APP_DIR = os.path.dirname( globals()['__file__'] )
 import mongoengine
 DBNAME = 'cfg'
 mongoengine.connect(DBNAME, alias='default')
-SESSION_ENGINE = 'mongoengine.django.sessions'
 AUTHENTICATION_BACKENDS = (
     'mongoengine.django.auth.MongoEngineBackend',
 )
+SESSION_ENGINE = 'mongoengine.django.sessions'
+SESSION_SERIALIZER = 'mongoengine.django.sessions.BSONSerializer'
+
 MONGOENGINE_USER_DOCUMENT = 'mongoengine.django.auth.User'
 AUTH_USER_MODEL = 'mongo_auth.MongoUser'
 
@@ -40,7 +42,7 @@ TEMPLATE_DEBUG = DEBUG
 ALLOWED_HOSTS = []
 
 ADMINS = (
-     ('Nahrin', 'khoshabta@yahoo.com'),
+     ('Admin', 'nahrinrs@yahoo.com'),
 )
 
 # Application definition
@@ -49,7 +51,7 @@ INSTALLED_APPS = (
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
-    'django.contrib.sites',
+    #'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'config',
@@ -89,13 +91,15 @@ DATABASES = {
     #    'ENGINE': 'django.db.backends.sqlite3',
     #    'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
      'default' : {
-      'ENGINE' : 'django.db.backends.',
+      'ENGINE' : 'django.db.backends.dummy',
       'NAME'   : DBNAME,
       'USER': '',  
       'PASSWORD': '',  
-      'HOST': '127.0.0.1',  
+      'PASSWORD': '',
+      'HOST': '127.0.0.1',
       'PORT': '27017',  
-      'SUPPORTS_TRANSACTIONS': False,    
+      'SUPPORTS_TRANSACTIONS': False,
+      'read_preference': True,
     }
 }
 
@@ -180,7 +184,7 @@ LOGGING = {
         'log_file':{
             'level': 'INFO',
             'class': 'logging.handlers.RotatingFileHandler',
-            'filename': os.path.join(BASE_DIR, 'logs/django.log'),
+            'filename': os.path.join(BASE_DIR, 'logs\django.log'),
             'maxBytes': '16777216',  # 16megabytes
             'formatter': 'verbose'
         }
